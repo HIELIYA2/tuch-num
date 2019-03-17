@@ -1,12 +1,12 @@
 'use strict'
 var gCurrentNum = 1;
 var gSumRows = 4;
+var gEli = 26;
 var timeStart = Date.now();
 
 //play the game
 function init() {
     renderQuest();
-    
 }
 
 //creat table with random nums
