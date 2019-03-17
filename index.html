@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>touch nums</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <div class="time">
+        <h2> game time: </h2>
+        <div id="time">
+            0 
+        </div>
+    </div>
+    <div class="level">
+        <h2> level: </h2>
+        <div onclick=clickEasy()>
+            <h3>easy </h3>
+        </div>
+        <div onclick=clickHard()>
+            <h3>hard </h3>
+        </div>
+        <div onclick=clickVeryHard()>
+            <h3>very hard</h3>
+        </div>
+    </div>
+    <div>
+        <table cellpadding="25">
+            <tbody class="board"> </tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
